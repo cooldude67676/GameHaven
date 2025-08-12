@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Click Speed Test</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Click Speed Test 🖱️</h1>
+  <p>
+    Click the button as many times as you can in
+    <span id="timeDisplay">10</span> seconds!
+  </p>
+
+  <div class="settings">
+    <label for="timerSelect">Choose timer:</label>
+    <select id="timerSelect">
+      <option value="5">5 seconds</option>
+      <option value="10" selected>10 seconds</option>
+      <option value="15">15 seconds</option>
+      <option value="20">20 seconds</option>
+      <option value="30">30 seconds</option>
+      <option value="45">45 seconds</option>
+      <option value="60">1 minute</option>
+    </select>
+  </div>
+
+  <button id="clickBtn">Click Me!</button>
+
+  <div id="score">Clicks: 0</div>
+
+  <button id="pauseResumeBtn">Pause</button>
+  <button id="restartBtn" style="display:none;">Restart</button>
+
+  <p><a href="../index.html">← Back to Home</a></p>
+
+  <script src="game.js"></script>
+</body>
+</html>

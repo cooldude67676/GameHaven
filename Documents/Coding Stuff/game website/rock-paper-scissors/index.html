@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Rock Paper Scissors</h1>
+
+  <div id="scoreboard">
+    <div>You: <span id="playerScore">0</span></div>
+    <div>Computer: <span id="computerScore">0</span></div>
+  </div>
+
+  <div id="choices">
+    <button data-move="rock">✊ Rock</button>
+    <button data-move="paper">✋ Paper</button>
+    <button data-move="scissors">✌️ Scissors</button>
+  </div>
+
+  <div id="result"></div>
+
+  <h2>Settings</h2>
+  <div id="settings">
+    <label>
+      Timer:
+      <select id="timerSelect">
+        <option value="off" selected>Off</option>
+        <option value="3">3 seconds</option>
+        <option value="5">5 seconds</option>
+        <option value="10">10 seconds</option>
+      </select>
+    </label>
+    <br /><br />
+    <label>
+      Points to Win:
+      <select id="pointsSelect">
+        <option value="3" selected>3</option>
+        <option value="5">5</option>
+        <option value="7">7</option>
+        <option value="10">10</option>
+        <option value="16">16</option>
+        <option value="21">21</option>
+      </select>
+    </label>
+  </div>
+
+  <p><a href="../index.html">← Back to Home</a></p>
+
+  <script src="game.js"></script>
+</body>
+</html>

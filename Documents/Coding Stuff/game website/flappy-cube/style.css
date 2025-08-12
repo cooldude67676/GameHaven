@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #222;
+    color: #fff;
+    font-family: sans-serif;
+  }
+  
+  canvas {
+    background: #66ccff;
+    border: 2px solid #fff;
+    margin-top: 20px;
+  }
+  

@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  h1, h2 {
+    margin-bottom: 10px;
+  }
+  
+  #scoreboard {
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    font-size: 24px;
+    margin: 10px 5px;
+    padding: 15px 25px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    background-color: #0099cc;
+    color: white;
+    transition: background-color 0.3s ease;
+    min-width: 100px;
+  }
+  
+  button:hover:not(:disabled) {
+    background-color: #0077aa;
+  }
+  
+  button:disabled {
+    background-color: #555;
+    cursor: not-allowed;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-size: 20px;
+    min-height: 40px;
+    min-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #settings {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    margin: 8px 0;
+  }
+  
+  select {
+    margin-left: 10px;
+    font-size: 16px;
+    padding: 3px 7px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  a {
+    color: #66ccff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
